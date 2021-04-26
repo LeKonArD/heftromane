@@ -11,7 +11,10 @@ script: "bundle exec jekyll serve -I"
 
 include: ["_pages"]
 permalink: /:title/
-
+exclude:
+  -assets
+  -ebooks
+  
 # Plugins
 plugins: 
   - jekyll-feed
