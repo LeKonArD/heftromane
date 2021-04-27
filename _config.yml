@@ -7,7 +7,7 @@ baseurl: '/heftroman.workshop'
 avatar: 'assets/images/sal.jpg'
 disqus: 'demowebsite'
 email: 'leonardkonle@gmail.com'
-script: "bundle exec jekyll serve -I"
+script: "bundle exec jekyll build"
 
 include: ["_pages"]
 permalink: /:title/
